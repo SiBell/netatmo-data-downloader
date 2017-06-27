@@ -5,7 +5,7 @@ Code for downloading public weather data from the [Netatmo API](https://dev.neta
 ## Setup
 
 1. Clone this repository to your local machine.
-2. Install a recent version of [Node.js](https://nodejs.org) (needs to be a version with ES6 support), and [NPM](https://www.npmjs.com/).
+2. If you haven't already, install a recent version of [Node.js](https://nodejs.org) (needs to be a version with ES6 support), and [NPM](https://www.npmjs.com/).
 3. Go into the root of the _netatmo-data-downloader_ directory.
 4. Use ```npm install``` to download required packages.
 5. In order to authenticate with the Netatmo API you will need to specify your Netatmo developer credentials. If you haven't already set up a [Netatmo Developer Account](https://dev.netatmo.com/myaccount/).
