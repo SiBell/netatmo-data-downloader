@@ -1,0 +1,22 @@
+{
+  "name": "netatmo-data-downloader",
+  "version": "1.0.0",
+  "description": "Code for downloading data from the netatmo API and saving it to csv.",
+  "dependencies": {
+    "async": "^2.5.0",
+    "check-types": "^7.1.5",
+    "csv": "^1.1.1",
+    "d3": "^4.9.1",
+    "dotenv": "^4.0.0",
+    "joi": "^10.6.0",
+    "json2csv": "^3.7.3",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "get-amsterdam": "node tasks/get-amsterdam-data/get-data.js"
+  },
+  "author": "Simon Bell",
+  "license": "ISC"
+}
